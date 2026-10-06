@@ -23,6 +23,7 @@ const columns = [
     links: [
       { label: "Contact", to: "/contact" },
       { label: "Privacy & Terms", to: "/privacy" },
+      { label: "Partner Policies", to: "/partner-policies" },
       { label: "Delete Account", to: "/delete-account" },
     ],
   },

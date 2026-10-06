@@ -13,6 +13,7 @@ const navLinks = [
   { to: "/how-it-works", label: "How It Works" },
   { to: "/contact", label: "Contact" },
   { to: "/privacy", label: "Privacy" },
+  { to: "/partner-policies", label: "Partner Policies" },
   { to: "/#become-partner", label: "Become a Partner" },
 ];
 
@@ -138,7 +139,7 @@ export default function Navbar() {
                 onClick={() => setMobileOpen(false)}
                 aria-current={active ? "page" : undefined}
                 style={{ transitionDelay: mobileOpen ? `${i * 60}ms` : "0ms" }}
-                className={`py-4 border-b border-paper/[0.06] font-display text-[26px] no-underline transition-all duration-500 ${
+                className={`py-3.5 border-b border-paper/[0.06] font-display text-[24px] no-underline transition-all duration-500 ${
                   mobileOpen
                     ? "opacity-100 translate-y-0"
                     : "opacity-0 translate-y-4"
@@ -151,8 +152,8 @@ export default function Navbar() {
           <a
             href="#get-app"
             onClick={() => setMobileOpen(false)}
-            style={{ transitionDelay: mobileOpen ? "280ms" : "0ms" }}
-            className={`mt-8 inline-flex items-center justify-center gap-2 py-4 rounded-full bg-paper text-ink font-semibold text-[15px] no-underline transition-all duration-500 ${
+            style={{ transitionDelay: mobileOpen ? "340ms" : "0ms" }}
+            className={`mt-6 inline-flex items-center justify-center gap-2 py-3.5 rounded-full bg-paper text-ink font-semibold text-[15px] no-underline transition-all duration-500 ${
               mobileOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
             }`}
           >
